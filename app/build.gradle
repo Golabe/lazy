@@ -16,6 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
@@ -25,15 +26,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
     implementation 'com.android.support:recyclerview-v7:27.1.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.4.0-RC1'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation "android.arch.paging:runtime:1.0.0-alpha7"
+    implementation 'android.arch.paging:runtime:1.0.0-alpha7'
     implementation 'com.github.bumptech.glide:glide:4.6.1'
-    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
     implementation 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
     implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
-
 }
